@@ -6,9 +6,10 @@ let translations = {
   en: "Hello World",
   fr: "Bonjour le monde",
 };
-//Check if the entered language is supported
+//Check the entered language
 if (translations[languageCode]) {
   console.log(`Hello World translated in ${languageCode} is: ${translations[languageCode]}`);
 } else {
-  console.log("Hello World translated in English is: Hello World"); // Default to English
+  console.log("Hello World translated in English is: Hello World"); 
+//Default to English
 }
